@@ -1,0 +1,55 @@
+header {
+  background-color: #301b5e;
+  color: white;
+  font-family: Arial;
+  height: 60px;
+  padding: 20px;
+}
+
+main {
+  display: flex;
+}
+
+.left {
+  background-color: #0193da;
+  width: 60%;
+  height: 700px;
+}
+
+.right {
+  background-color: #2dafee;
+  width: 40%;
+  height: 700px;
+  text-align: center;
+}
+
+footer {
+  background-color: #301b5e;
+  color: white;
+  text-align: center;
+}
+
+img {
+  padding: 20px;
+  border: 1px dotted orange;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: red;
+}
+
+input[type='submit'],
+input[type='reset'] {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 20px;
+}
+
+li {
+  list-style-position: inside;
+}

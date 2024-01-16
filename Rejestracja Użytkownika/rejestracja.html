@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dodaj Uzytkownika</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2>Rejestacja uzytkownika</h2>
+    </header>
+    <main>
+      <div class="left">
+        <h3>Wpisz swoje dane</h3>
+        <form method="post" action="dodajDane.php">
+          Imię <br />
+          <input type="text" name="imie" /> <br />
+          Nazwisko <br />
+          <input type="text" maxlength="40" name="nazwisko" /><br />
+          Telefon <br /><input type="text" name="telefon" /> <br />
+          Email <br />
+          <input type="email" maxlength="40" name="email" /> <br />
+          <br />
+          <input type="reset" value="CZYSC" />
+          <input type="submit" value="WYSLIJ" />
+        </form>
+      </div>
+      <div class="right">
+        <br />
+        <img src="ksiazki.jpg" alt="sprzedaj ksiazke" /> <br />
+        <a href="kwerendy.txt">Kweredy SQL</a>
+        <h3>Kategorie</h3>
+        <ul>
+          <li>Ksiazki</li>
+          <li>Muzyka</li>
+          <li>Filmy</li>
+        </ul>
+        <h3>Podkategorie</h3>
+        <ul>
+          <li>Biografia</li>
+          <li>Kryminal</li>
+          <li>Komiks</li>
+        </ul>
+      </div>
+    </main>
+    <footer>Portal ogloszeniowy opracowal : Wojtus</footer>
+  </body>
+</html>
