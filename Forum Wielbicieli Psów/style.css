@@ -1,0 +1,59 @@
+* {
+  font-family: Garamond;
+}
+
+header {
+  background-color: saddlebrown;
+  color: white;
+  text-align: center;
+  height: 50px;
+}
+
+main {
+  display: flex;
+}
+
+.left {
+  background-color: tan;
+  height: 500px;
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+}
+
+.top,
+.bot {
+  background-color: tan;
+  height: 250px;
+}
+
+h2 {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer {
+  background-color: saddlebrown;
+  color: white;
+}
+
+form {
+  background-color: saddlebrown;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 300px;
+}
+
+form > input {
+  margin: 5px;
+}
+
+p::before {
+  content: 'STATUS: ';
+}
